@@ -7,14 +7,13 @@
 }
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
     font-family: 'Oxygen', sans-serif;
     background-color: rgb(87, 139, 182);
-    height: 100%;
+    /* height: 100%; */
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +27,7 @@ body {
 .main_div {
     position: relative;
     width: 22em;
-    border-top-left-radius: 40px;
+    height: 100vh;
 }
 
 
@@ -39,10 +38,8 @@ body {
     word-break: break-all;
     overflow-y: scroll;
     padding: 33px;
-    height: 30rem;
+    height: 100%;
     font-size: 25px;
-    border-top-left-radius: 40px;
-
 }
 
 input {

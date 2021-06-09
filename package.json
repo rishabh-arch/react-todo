@@ -1,5 +1,6 @@
 {
   "name": "helloworld",
+  "homepage": "https://rishabh-arch.github.io/react-todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.0-beta3",
+    "gh-pages": "^3.2.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "query-string": "^7.0.0",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "set PORT=5000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
